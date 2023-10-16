@@ -1,0 +1,237 @@
+body{
+    background-image: url(images/tashkent1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    header{
+        margin-top: 10px;
+        .container{
+            .header1{
+                display: flex;
+                align-items: center;
+                .item1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                }
+                .item2{
+                    display: flex;
+                    align-items: center;
+                    h3{
+                        color: white;
+                        font-family: "Concert One", cursive;
+                    }
+                }
+                .item3{
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    a{
+                        width: 80%;
+                        height: auto;
+                        border: 1px white solid;
+                        border-radius: 20px;
+                        color: white;
+                        font-size: 110%;
+                        font-weight: 550;
+                    }
+                    :hover{
+                        color: rgb(255, 255, 255);
+                        box-shadow: 1px 1px 8px 1px rgb(255, 255, 255);
+                    }
+                }
+            }
+            .header2{
+                margin-top: 120px;
+                .item1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 15px;
+                        width: 20%;
+                        height: 65px;
+                        border: 1px white solid;
+                        border-radius: 20px;
+                        color: white;
+                        font-weight: 550;
+                        font-size: 120%;
+                    }
+                    :hover{
+                        box-shadow: 1px 1px 7px 1px rgb(255, 255, 255);
+                    }
+                }
+                .item2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 15px;
+                        width: 20%;
+                        height: 65px;
+                        border: 1px white solid;
+                        border-radius: 20px;
+                        color: white;
+                        font-weight: 550;
+                        font-size: 120%;
+                    }
+                    :hover{
+                        box-shadow: 1px 1px 7px 1px rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+    main{
+        margin-top: 50px;
+        .container{
+            .row{
+                .item1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                }
+                .item2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                }
+            }
+        }
+    }
+    footer{
+        margin-top: 30px;
+        .container{
+            .row{
+                .item1{
+                    display: flex;
+                    align-items: end;
+                    justify-content: start;
+                    .block{
+                        padding: 10px;
+                        svg{
+                            color: white;
+                        }
+                    }
+                }
+                .item2{
+                    display: flex;
+                    align-items: end;
+                    justify-content: end;
+                    a{
+                        color: white;
+                        border: 1px white solid;
+                        border-radius: 20px;
+                        width: auto;
+                        font-size: 110%;
+                        font-weight: 550;
+                    }
+                    :hover{
+                        box-shadow: 1px 1px 8px 1px white;
+                    }
+                }
+            }
+        }
+    }
+
+    .Modal_1{
+        .modal-body{
+            .container{
+                .row{
+                    .item1{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .input-group{
+                            width: 80%;
+                            button{
+                                border: 1px rgb(201, 201, 201) solid;
+                            }
+                        }
+                    }
+                    .item2{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .btn-group{
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            width: 80%;
+                            border: 1px rgb(201, 201, 201) solid;
+                            button{
+                                display: flex;
+                                justify-content: flex-start;
+                                color: rgb(74, 74, 74);
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                    .item3{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .input-group{
+                            width: 80%;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .Modal_2{
+        .modal-body{
+            .container{
+                .row{
+                    .item1{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .input-group{
+                            width: 80%;
+                            button{
+                                border: 1px rgb(201, 201, 201) solid;
+                            }
+                        }
+                    }
+                    .item2{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .btn-group{
+                            margin-top: 30px;
+                            width: 80%;
+                            border: 1px rgb(201, 201, 201) solid;
+                            button{
+                                display: flex;
+                                justify-content: flex-start;
+                                color: rgb(74, 74, 74);
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Modal_2_1{
+        .modal-body{
+            form{
+                .block{
+                    margin-bottom: 5px;
+                    width: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

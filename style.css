@@ -1,0 +1,203 @@
+body {
+  background-image: url(images/tashkent1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body header {
+  margin-top: 10px;
+}
+body header .container .header1 {
+  display: flex;
+  align-items: center;
+}
+body header .container .header1 .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+body header .container .header1 .item2 {
+  display: flex;
+  align-items: center;
+}
+body header .container .header1 .item2 h3 {
+  color: white;
+  font-family: "Concert One", cursive;
+}
+body header .container .header1 .item3 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+body header .container .header1 .item3 a {
+  width: 80%;
+  height: auto;
+  border: 1px white solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 110%;
+  font-weight: 550;
+}
+body header .container .header1 .item3 :hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 8px 1px rgb(255, 255, 255);
+}
+body header .container .header2 {
+  margin-top: 120px;
+}
+body header .container .header2 .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .container .header2 .item1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 20%;
+  height: 65px;
+  border: 1px white solid;
+  border-radius: 20px;
+  color: white;
+  font-weight: 550;
+  font-size: 120%;
+}
+body header .container .header2 .item1 :hover {
+  box-shadow: 1px 1px 7px 1px rgb(255, 255, 255);
+}
+body header .container .header2 .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .container .header2 .item2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 20%;
+  height: 65px;
+  border: 1px white solid;
+  border-radius: 20px;
+  color: white;
+  font-weight: 550;
+  font-size: 120%;
+}
+body header .container .header2 .item2 :hover {
+  box-shadow: 1px 1px 7px 1px rgb(255, 255, 255);
+}
+body main {
+  margin-top: 50px;
+}
+body main .container .row .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+body main .container .row .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+body footer {
+  margin-top: 30px;
+}
+body footer .container .row .item1 {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+body footer .container .row .item1 .block {
+  padding: 10px;
+}
+body footer .container .row .item1 .block svg {
+  color: white;
+}
+body footer .container .row .item2 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+body footer .container .row .item2 a {
+  color: white;
+  border: 1px white solid;
+  border-radius: 20px;
+  width: auto;
+  font-size: 110%;
+  font-weight: 550;
+}
+body footer .container .row .item2 :hover {
+  box-shadow: 1px 1px 8px 1px white;
+}
+body .Modal_1 .modal-body .container .row .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Modal_1 .modal-body .container .row .item1 .input-group {
+  width: 80%;
+}
+body .Modal_1 .modal-body .container .row .item1 .input-group button {
+  border: 1px rgb(201, 201, 201) solid;
+}
+body .Modal_1 .modal-body .container .row .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Modal_1 .modal-body .container .row .item2 .btn-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  border: 1px rgb(201, 201, 201) solid;
+}
+body .Modal_1 .modal-body .container .row .item2 .btn-group button {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(74, 74, 74);
+  border-radius: 5px;
+}
+body .Modal_1 .modal-body .container .row .item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Modal_1 .modal-body .container .row .item3 .input-group {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .Modal_2 .modal-body .container .row .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Modal_2 .modal-body .container .row .item1 .input-group {
+  width: 80%;
+}
+body .Modal_2 .modal-body .container .row .item1 .input-group button {
+  border: 1px rgb(201, 201, 201) solid;
+}
+body .Modal_2 .modal-body .container .row .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Modal_2 .modal-body .container .row .item2 .btn-group {
+  margin-top: 30px;
+  width: 80%;
+  border: 1px rgb(201, 201, 201) solid;
+}
+body .Modal_2 .modal-body .container .row .item2 .btn-group button {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(74, 74, 74);
+  border-radius: 5px;
+}
+body .Modal_2_1 .modal-body form .block {
+  margin-bottom: 5px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
